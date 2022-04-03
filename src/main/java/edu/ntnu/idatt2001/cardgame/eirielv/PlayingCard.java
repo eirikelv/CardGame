@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.cardgame.eirielv.cardgame;
+package edu.ntnu.idatt2001.cardgame.eirielv;
 /**
  * Represents a playing card. A playing card has a number (face) between
  * 1 and 13, where 1 is called an Ace, 11 = Knight, 12 = Queen and 13 = King.
