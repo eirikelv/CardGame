@@ -67,7 +67,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                src/main/java/edu/ntnu/idatt2001/cardgame/eirielv/cardgame/CardGameApplication.java
+                                src/main/java/edu/ntnu/idatt2001/cardgame/eirielv/CardGameApplication.java
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
