@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.cardgame.eirielv.cardgame;
+package edu.ntnu.idatt2001.cardgame.eirielv;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -118,11 +118,11 @@ public class CardGameController implements Initializable {
      */
     @FXML
     public void showHandsOfCards(){
-        card1.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/cardgame/ImageOfCards/" + deckOfCards.getHandOfCard().get(0).getAsString() + ".png"));
-        card2.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/cardgame/ImageOfCards/" + deckOfCards.getHandOfCard().get(1).getAsString() + ".png"));
-        card3.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/cardgame/ImageOfCards/" + deckOfCards.getHandOfCard().get(2).getAsString() + ".png"));
-        card4.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/cardgame/ImageOfCards/" + deckOfCards.getHandOfCard().get(3).getAsString() + ".png"));
-        card5.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/cardgame/ImageOfCards/" + deckOfCards.getHandOfCard().get(4).getAsString() + ".png"));
+        card1.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/ImageOfCards/" + deckOfCards.getHandOfCard().get(0).getAsString() + ".png"));
+        card2.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/ImageOfCards/" + deckOfCards.getHandOfCard().get(1).getAsString() + ".png"));
+        card3.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/ImageOfCards/" + deckOfCards.getHandOfCard().get(2).getAsString() + ".png"));
+        card4.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/ImageOfCards/" + deckOfCards.getHandOfCard().get(3).getAsString() + ".png"));
+        card5.setImage(new Image("/edu/ntnu/idatt2001/cardgame/eirielv/ImageOfCards/" + deckOfCards.getHandOfCard().get(4).getAsString() + ".png"));
     }
 
 }
