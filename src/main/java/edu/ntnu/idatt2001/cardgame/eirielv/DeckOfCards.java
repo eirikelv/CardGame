@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.cardgame.eirielv.cardgame;
+package edu.ntnu.idatt2001.cardgame.eirielv;
 
 import java.util.*;
 import java.util.stream.IntStream;
@@ -18,6 +18,7 @@ public class DeckOfCards {
      */
     public DeckOfCards() {
         this.deckOfCards = new ArrayList<>();
+        this.handOfCard = new ArrayList<>();
 
         IntStream.range(0, numberOfFace).forEach(p -> deckOfCards.add(new PlayingCard(suit[0], (p % numberOfFace)+1)));
         IntStream.range(0, numberOfFace).forEach(p -> deckOfCards.add(new PlayingCard(suit[1], (p % numberOfFace)+1)));
@@ -39,7 +40,6 @@ public class DeckOfCards {
                 }
                 else {
                     handOfCard.add(deckOfCards.get(random.nextInt(52)));
-                    System.out.println("fant duplicat");
                     }
                 }
         );
